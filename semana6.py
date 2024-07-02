@@ -27,7 +27,7 @@ class Mult (OperMatem):
 
 class Div (OperMatem):
     def operacion(self):
-        return self.a / self.b
+        return self.a/ self.b
     def __str__(self):
         return f"La dividion entre {self.a} y {self.b} es {self.operacion()}"
 
