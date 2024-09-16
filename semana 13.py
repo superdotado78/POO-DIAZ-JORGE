@@ -19,7 +19,7 @@ ventana = tk.Tk()
 ventana.title("Gestión de Datos (Jorge Dìaz)")
 
 # Etiqueta
-etiqueta = tk.Label(ventana, text="Ingresar información:")
+etiqueta = tk.Label(ventana, text="Ingresar texto:")
 etiqueta.pack(pady=10)
 
 # Campo de texto
